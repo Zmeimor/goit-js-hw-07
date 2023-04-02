@@ -22,7 +22,7 @@ return `<a class="gallery__item" href=${original}> <img class="gallery__image" s
 
 placeForFalleryHtml.insertAdjacentHTML('beforeend', galleryInserted);
 
-placeForFalleryHtml.addEventListener('click', openModal);
+// placeForFalleryHtml.addEventListener('click', openModal);
 
 new SimpleLightbox('.gallery a', { captionDelay:500, 
    doubleTapZoom:1.3, rtl: true });
